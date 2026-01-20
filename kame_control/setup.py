@@ -24,6 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': ['cmdvel_odom_node = kame_control.cmdvel_odom_node:main',
+        'nav2_two_goals = kame_control.nav2_two_goals:main',
+        'nav2_kadai = kame_control.nav2_kadai:main',
+        'nav2_hause = kame_control.nav2_hause:main',
         ],
     },
 )
